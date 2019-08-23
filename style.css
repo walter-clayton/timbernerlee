@@ -1,0 +1,166 @@
+h1 {
+	font: bold 2em;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	/*	Font weight doesn't work!!!*/
+	font-weight: 1500;
+}
+
+
+body 	{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+	margin-top: 50px;
+
+}
+
+.container {
+	bottom: 0px;
+	right: 33%;
+	left: 33%;
+	width: 33%;
+	display: flex;
+	align-items: center;
+	font-size: 1.5em;
+	background-color: white;
+	box-shadow: 5px 5px grey;
+	flex-direction: column;
+	margin-bottom: 40px;
+	padding: 20px
+}
+
+
+#media {
+	  flex-direction: row;
+
+}
+
+#Movies {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+
+img {
+	height: auto;
+	width: auto;
+	align-self: center;
+
+}
+
+div {
+  justify-content: center;
+}
+
+.profile {
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	padding: 10px;
+	align-content: center;
+	display: inline-block;
+
+}
+
+ h3 {
+ color: #8c8c8c;
+ margin-bottom: 30px;
+ margin-top: 30px;
+ font-size: 1.5em;
+ justify-content: center;
+}
+
+h2{
+ color: #8c8c8c;
+ margin-bottom: 30px;
+ margin-top: 5px;
+ font-size: 1.7em;
+ justify-content: center;
+}
+
+.media {
+	color: #e6e6e6;
+	display: inline-block;
+	vertical-align: center;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	font-size: 20px;
+
+}
+
+
+.caption {
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: auto;
+}
+
+.media-container {
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+text-align: center;
+
+}
+
+.content {
+	display: flex;
+	font-size: 1.5em;
+	color: #8c8c8c;
+
+}
+
+
+.button {
+  background-color:#ff1a1a;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 2em;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+i {
+	font-size: 2em;
+	color: #cccccc;
+
+}
+
+a {
+	text-decoration: none;
+	color: 	 #cccccc;
+}
+
+p {
+	text-align: justify;
+	padding: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 1.5em;
+	color: #8c8c8c;
+}
